@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "bun server/index.ts",
-    "dev": "bun --watch server/index.ts"
+    "dev": "bun --watch server/index.ts",
+    "deploy": "wrangler deploy --minify --name project_d_12 server/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
